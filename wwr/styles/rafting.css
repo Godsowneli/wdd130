@@ -76,6 +76,7 @@ h1 {
     left: 20px;
     background-color: var(--accent2-color);
     color: var(--accent1-color);
+    border: 3px solid var(--secondary-color);
 }
 
 .hero article img {
