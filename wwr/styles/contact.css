@@ -1,0 +1,138 @@
+/* Contact page */
+main > h1 {
+    background-color: var(--accent1-color);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+.contact-info {
+    background-color: #f3e68b;
+    padding: 25px;
+    text-align: center;
+}
+
+.contact-info h2,
+.employees h2,
+.contact-form h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info iframe {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+    margin: 20px auto 0;
+    border: 0;
+}
+
+/* Employee profiles */
+.employees {
+    padding: 30px 20px;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.employee-gallery figure {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+.employee-gallery img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.employee-gallery figcaption {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Contact form */
+.contact-form {
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #f3e68b;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--accent1-color);
+    font: inherit;
+}
+
+.contact-form fieldset {
+    padding: 15px;
+    border: 1px solid var(--accent1-color);
+}
+
+.contact-form fieldset label {
+    display: block;
+    margin: 10px 0;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.contact-form .newsletter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-form button {
+    padding: 12px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent1-color);
+}
+
+@media (max-width: 700px) {
+    .employee-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .employee-gallery figure {
+        width: 90%;
+    }
+
+    .contact-form {
+        margin: 15px;
+    }
+}
