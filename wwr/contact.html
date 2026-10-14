@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Lagos River Adventures</title>
+    <title>Contact Us | River Adventures</title>
     <meta name="description"
-      content="Contact Lagos River Adventures for rafting information, reservations, and questions about our trips.">
+      content="Contact River Adventures for rafting information, reservations, and questions about our trips.">
     <meta name="author" content="God'sown Elijah Daniels">
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/raftings.css">
 </head>
 
 <body>
     <header>
-        <img src="images/z-wwr-blue.jpg" alt="Lagos River Adventures logo">
+        <img src="images/z-wwr-blue.jpg" alt="River Adventures rafting logo">
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -23,17 +23,24 @@
     </header>
 
     <main>
-        <h1>Contact Lagos River Adventures</h1>
+        <h1>Contact River Adventures</h1>
+
+        <p>
+            My name is God'sown Elijah Daniels, and I am learning
+            to build websites using HTML and CSS. This page helps
+            visitors learn about River Adventures, contact the
+            company, and ask questions about rafting trips.
+        </p>
 
         <section class="contact-info">
             <h2>Our Contact Information</h2>
-            <p>Address: [mainland bridge lagos nigeria]</p>
-            <p>Phone: [+2348149238164]</p>
-            <p>Email: [Godsownelijahdaniels5@gmail.com]</p>
+            <p>Address: Mainland Bridge, Nigeria</p>
+            <p>Phone: +2348149238164</p>
+            <p>Email: Godsownelijahdaniels5@gmail.com</p>
 
             <h3>Find Us</h3>
-            <iframe src="https://www.google.com/maps?q=Lagos%20Nigeria&output=embed" width="400"
-              height="250" title="Map showing Lagos, Nigeria" loading="lazy">
+            <iframe src="https://www.google.com/maps?q=Mainland%20Bridge%2C%20Nigeria&output=embed"
+              width="400" height="250" title="Map showing our general location">
             </iframe>
         </section>
 
@@ -42,18 +49,19 @@
 
             <div class="employee-gallery">
                 <figure>
-                    <img src="images/empolyee1.jpg" alt="First team member">
-                    <figcaption>Manager</figcaption>
+                    <img src="images/empolyee1.jpg" alt="River Adventures team manager">
+                    <figcaption>mich Manager</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/empoyee 2.jpg" alt="Second team member">
-                    <figcaption>Rafting Guide</figcaption>
+                    <img src="images/empoyee 2.jpg" alt="River Adventures rafting guide">
+                    <figcaption>john Rafting Guide</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/cempolyee.jpg" alt="Third team member">
-                    <figcaption>Customer Service Officer</figcaption>
+                    <img src="images/empolyee3.jpg"
+                      alt="River Adventures customer service team member">
+                    <figcaption>james Customer Service Officer</figcaption>
                 </figure>
             </div>
         </section>
@@ -71,29 +79,29 @@
                 <fieldset>
                     <legend>Purpose of Message</legend>
 
-                    <label>
-                        <input type="radio" name="purpose" value="general" required>
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general" required>
                         General Inquiry
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
                         Reservation Question
                     </label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion">
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
                         Website Suggestion
                     </label>
                 </fieldset>
 
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <label class="newsletter">
-                    <input type="checkbox" name="newsletter">
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
                     Please subscribe me to the monthly newsletter
                 </label>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
                 <button type="submit">Send Message</button>
             </form>
@@ -101,17 +109,17 @@
     </main>
 
     <footer>
-        <p>© 2026 | Lagos River Adventures | God'sown Elijah Daniels</p>
+        <p>© 2026 |lagos River Adventures | God'sown Elijah Daniels</p>
 
         <nav class="socialmedia">
             <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="Facebook">
+                <img src="images/facebook.svg" alt="Visit us on Facebook">
             </a>
             <a href="https://linkedin.com">
-                <img src="images/linkedin.svg" alt="LinkedIn">
+                <img src="images/linkedin.svg" alt="Visit us on LinkedIn">
             </a>
             <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Instagram">
+                <img src="images/instagram.svg" alt="Visit us on Instagram">
             </a>
         </nav>
     </footer>
